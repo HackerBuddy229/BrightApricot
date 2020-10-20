@@ -1,0 +1,8 @@
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/bin/Debug/netstandard2.1/BrightApricot.Shared.deps.json
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/bin/Debug/netstandard2.1/BrightApricot.Shared.dll
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/bin/Debug/netstandard2.1/BrightApricot.Shared.pdb
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/obj/Debug/netstandard2.1/BrightApricot.Shared.csprojAssemblyReference.cache
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/obj/Debug/netstandard2.1/BrightApricot.Shared.AssemblyInfoInputs.cache
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/obj/Debug/netstandard2.1/BrightApricot.Shared.AssemblyInfo.cs
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/obj/Debug/netstandard2.1/BrightApricot.Shared.dll
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/obj/Debug/netstandard2.1/BrightApricot.Shared.pdb
