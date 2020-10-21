@@ -2846,35 +2846,68 @@
         }
       },
       {
-        "HashCode": -2090912484,
+        "HashCode": 1404206304,
         "Kind": "Components.Component",
-        "Name": "BrightApricot.Client.Pages.Index",
+        "Name": "BrightApricot.Client.App",
         "AssemblyName": "BrightApricot.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BrightApricot.Client.Pages.Index"
+          "Common.TypeName": "BrightApricot.Client.App"
         }
       },
       {
-        "HashCode": -301720068,
+        "HashCode": -215526951,
         "Kind": "Components.Component",
-        "Name": "BrightApricot.Client.Pages.Index",
+        "Name": "BrightApricot.Client.App",
         "AssemblyName": "BrightApricot.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BrightApricot.Client.Pages.Index"
+            "TagName": "BrightApricot.Client.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BrightApricot.Client.Pages.Index",
+          "Common.TypeName": "BrightApricot.Client.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -592767314,
+        "Kind": "Components.Component",
+        "Name": "BrightApricot.Client.Pages.Counter",
+        "AssemblyName": "BrightApricot.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BrightApricot.Client.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -655969936,
+        "Kind": "Components.Component",
+        "Name": "BrightApricot.Client.Pages.Counter",
+        "AssemblyName": "BrightApricot.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BrightApricot.Client.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BrightApricot.Client.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -2912,35 +2945,35 @@
         }
       },
       {
-        "HashCode": -592767314,
+        "HashCode": -2090912484,
         "Kind": "Components.Component",
-        "Name": "BrightApricot.Client.Pages.Counter",
+        "Name": "BrightApricot.Client.Pages.Index",
         "AssemblyName": "BrightApricot.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BrightApricot.Client.Pages.Counter"
+          "Common.TypeName": "BrightApricot.Client.Pages.Index"
         }
       },
       {
-        "HashCode": -655969936,
+        "HashCode": -301720068,
         "Kind": "Components.Component",
-        "Name": "BrightApricot.Client.Pages.Counter",
+        "Name": "BrightApricot.Client.Pages.Index",
         "AssemblyName": "BrightApricot.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BrightApricot.Client.Pages.Counter"
+            "TagName": "BrightApricot.Client.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BrightApricot.Client.Pages.Counter",
+          "Common.TypeName": "BrightApricot.Client.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -3027,135 +3060,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BrightApricot.Client.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1745351796,
-        "Kind": "Components.Component",
-        "Name": "BrightApricot.Client.Shared.MainLayout",
-        "AssemblyName": "BrightApricot.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BrightApricot.Client.Shared.MainLayout"
-        }
-      },
-      {
-        "HashCode": -373321296,
-        "Kind": "Components.Component",
-        "Name": "BrightApricot.Client.Shared.MainLayout",
-        "AssemblyName": "BrightApricot.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BrightApricot.Client.Shared.MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BrightApricot.Client.Shared.MainLayout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1864560317,
-        "Kind": "Components.ChildContent",
-        "Name": "BrightApricot.Client.Shared.MainLayout.Body",
-        "AssemblyName": "BrightApricot.Client",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "BrightApricot.Client.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": -654588632,
-        "Kind": "Components.ChildContent",
-        "Name": "BrightApricot.Client.Shared.MainLayout.Body",
-        "AssemblyName": "BrightApricot.Client",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "BrightApricot.Client.Shared.MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "BrightApricot.Client.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1404206304,
-        "Kind": "Components.Component",
-        "Name": "BrightApricot.Client.App",
-        "AssemblyName": "BrightApricot.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BrightApricot.Client.App"
-        }
-      },
-      {
-        "HashCode": -215526951,
-        "Kind": "Components.Component",
-        "Name": "BrightApricot.Client.App",
-        "AssemblyName": "BrightApricot.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BrightApricot.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BrightApricot.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/G78YvV-6yz8yX-Nkbt11IadbeOs5V8gMRG3yuQqQKd8=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/tOdnvPRPebokoj9pwsAN-DRHUNhHg2v9CdTlc3KK-GI=.hash",
       "Source": "\/home\/hackerbuddy\/repos\/BrightApricot\/BrightApricot\/BrightApricot\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BrightApricot.Client.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BrightApricot.Client.dll.gz"
     },
@@ -191,7 +191,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/zUntb3SI_f_o297iYT5oItNYFLorVS-C7b1Wow5tjok=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/HKBxTBPw4soJVRThjLleqBmVy1TsCHTSivyVZuwGOss=.hash",
       "Source": "\/home\/hackerbuddy\/repos\/BrightApricot\/BrightApricot\/BrightApricot\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BrightApricot.Shared.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BrightApricot.Shared.dll.gz"
     },
@@ -266,12 +266,12 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/TkZXJtmVQVemfJr_BeXEdrRyM5fN5Uk1CSmxhbuD700=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/sXimKOzebGzguG5J9VkTDiL0UBjYyerJvAsP6QEYqWk=.hash",
       "Source": "\/home\/hackerbuddy\/repos\/BrightApricot\/BrightApricot\/BrightApricot\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BrightApricot.Client.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BrightApricot.Client.pdb.gz"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/5Im9_mKaGpPZCYlyQ3QBirWjxeIPTPEJeqwb_3rcxqY=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/INBYj8M3Ke_sa75pExbuconmUo8Y3LBd0T8MqqJJY7I=.hash",
       "Source": "\/home\/hackerbuddy\/repos\/BrightApricot\/BrightApricot\/BrightApricot\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BrightApricot.Shared.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BrightApricot.Shared.pdb.gz"
     },
@@ -296,12 +296,12 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/RwRkVChDkubK6ZyAbIKh-ABRgMZfQSF57uKyXV2x-mg=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/YIV4CR8YGk8vj02IUjCKomqyFUSp9rAw9Y0kXp1jD_M=.hash",
       "Source": "\/home\/hackerbuddy\/repos\/BrightApricot\/BrightApricot\/BrightApricot\/Client\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.gz"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/_z-n-3WgJl1M57r2DFGZlmMChp8i5o_tgmaOL2a-ON0=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/PsO7WPUje952WHcQSeERot0FyxGLKAsmpZwuZJX90NM=.hash",
       "Source": "\/home\/hackerbuddy\/repos\/BrightApricot\/BrightApricot\/BrightApricot\/Client\/obj\/Debug\/netstandard2.1\/blazor\/service-worker-assets.js",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/service-worker-assets.js.gz"
     }
