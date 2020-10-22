@@ -211,3 +211,5 @@
 /home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Server/obj/Debug/netcoreapp3.1/staticwebassets/BrightApricot.Server.StaticWebAssets.xml
 /home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Server/obj/Debug/netcoreapp3.1/BrightApricot.Server.dll
 /home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Server/obj/Debug/netcoreapp3.1/BrightApricot.Server.pdb
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Server/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Server/bin/Debug/netcoreapp3.1/mono_crash.21acb2abea.0.json
