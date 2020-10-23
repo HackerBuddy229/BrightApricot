@@ -65,7 +65,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-aGn695Gi+VlOU6Rx\/iOH9vbxTU0gSJPaJrJYAuIh4Io=",
+      "hash": "sha256-1ThlNEF5aIKDiMP5JBUQ6KQW5oUnraiFEyVf\/Q7RLJ0=",
       "url": "_framework\/_bin\/BrightApricot.Client.dll"
     },
     {
@@ -277,7 +277,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-Jxn\/zmF7nZ413RiMztib6nyxRgbneJHC322bOuFvQzk=",
+      "hash": "sha256-akndeNLk4ZY53AJDJ8KVKZ+YgPLnsnCXkBYSDK2Eq1U=",
       "url": "_framework\/_bin\/BrightApricot.Client.pdb"
     },
     {
@@ -301,9 +301,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-JSOe+fMuAwTAzMnDAjT+VTKpSs5Cx34yWK4UXsiN23w=",
+      "hash": "sha256-XqShqELMqSbSi1vMse6RpreQ\/TRsFE+0KYlBvpFN7Pw=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "D5eYpZdn"
+  "version": "qW8rOL+o"
 };

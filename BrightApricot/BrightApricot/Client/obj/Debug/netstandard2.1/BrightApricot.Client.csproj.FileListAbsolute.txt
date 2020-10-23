@@ -372,8 +372,8 @@
 /home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/Debug/netstandard2.1/blazor/service-worker-assets.js
 /home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/Debug/netstandard2.1/integrity/HKBxTBPw4soJVRThjLleqBmVy1TsCHTSivyVZuwGOss=.hash
 /home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/Debug/netstandard2.1/integrity/INBYj8M3Ke_sa75pExbuconmUo8Y3LBd0T8MqqJJY7I=.hash
-/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/Debug/netstandard2.1/integrity/rs8UFpkdxq1rUO41pfoO2lzo7SiMjSn-rWT17wec6WM=.hash
-/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/Debug/netstandard2.1/integrity/aGn695Gi_VlOU6Rx-iOH9vbxTU0gSJPaJrJYAuIh4Io=.hash
-/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/Debug/netstandard2.1/integrity/Jxn-zmF7nZ413RiMztib6nyxRgbneJHC322bOuFvQzk=.hash
-/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/Debug/netstandard2.1/integrity/JSOe_fMuAwTAzMnDAjT_VTKpSs5Cx34yWK4UXsiN23w=.hash
 /home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/Debug/netstandard2.1/integrity/Cx4OMKF7AApn77STyMIe8JgiCFbkxV1e3HICj_QaO7I=.hash
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/Debug/netstandard2.1/integrity/1ThlNEF5aIKDiMP5JBUQ6KQW5oUnraiFEyVf-Q7RLJ0=.hash
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/Debug/netstandard2.1/integrity/akndeNLk4ZY53AJDJ8KVKZ_YgPLnsnCXkBYSDK2Eq1U=.hash
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/Debug/netstandard2.1/integrity/XqShqELMqSbSi1vMse6RpreQ-TRsFE_0KYlBvpFN7Pw=.hash
+/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/Debug/netstandard2.1/integrity/ScPZMNAOh7M9_EUt5IrX4VLmduPIv7d5hvHByDmwmNg=.hash
