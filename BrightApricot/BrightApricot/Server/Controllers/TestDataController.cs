@@ -19,12 +19,8 @@ namespace BrightApricot.Server.Controllers {
         [HttpGet]
         [Route("api/TestData/recipes")]
         public async Task<IActionResult> FetchTestRecipes() {
-            using (var reader = File.OpenText(filename)) {
-            var result = await reader.ReadToEndAsync();
-            return result; 
-            }
-            
-
+            var result = await System.IO.File.ReadAllTextAsync(filename);
+            return Ok(result);
         } 
     }
 }
