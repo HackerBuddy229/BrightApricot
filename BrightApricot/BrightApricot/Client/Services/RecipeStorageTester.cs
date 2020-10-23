@@ -13,7 +13,7 @@ namespace BrightApricot.Client.Services {
 
 
         private readonly HttpClient _httpClient;
-        private static string _url = ""; // 
+        private static string _url = "api/TestData/recipes"; // 
 
 
         private IEnumerable<Recipe> _recipes { get; set; } 

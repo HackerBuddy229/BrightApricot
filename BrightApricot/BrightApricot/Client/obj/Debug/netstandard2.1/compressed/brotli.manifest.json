@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/1ThlNEF5aIKDiMP5JBUQ6KQW5oUnraiFEyVf-Q7RLJ0=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/vd8Z6__fKs--C3KNFisjfv3atvnf82owk-9r_GBZlSE=.hash",
       "Source": "\/home\/hackerbuddy\/repos\/BrightApricot\/BrightApricot\/BrightApricot\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BrightApricot.Client.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BrightApricot.Client.dll.br"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/akndeNLk4ZY53AJDJ8KVKZ_YgPLnsnCXkBYSDK2Eq1U=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/U4u-Q1MJe_lsd5EaXFXadtQMYk9YU0NQgF5Cxm3lX7I=.hash",
       "Source": "\/home\/hackerbuddy\/repos\/BrightApricot\/BrightApricot\/BrightApricot\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BrightApricot.Client.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BrightApricot.Client.pdb.br"
     },
@@ -296,12 +296,12 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/XqShqELMqSbSi1vMse6RpreQ-TRsFE_0KYlBvpFN7Pw=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/zFeoBvxZAsppp_-8-axPYJrRJ6l5V48OO-noxHSXCgY=.hash",
       "Source": "\/home\/hackerbuddy\/repos\/BrightApricot\/BrightApricot\/BrightApricot\/Client\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/ScPZMNAOh7M9_EUt5IrX4VLmduPIv7d5hvHByDmwmNg=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/ck4QKk8wB7ZiS56-eXUBm_-JccArUm8I3iQDgZpNTlM=.hash",
       "Source": "\/home\/hackerbuddy\/repos\/BrightApricot\/BrightApricot\/BrightApricot\/Client\/obj\/Debug\/netstandard2.1\/blazor\/service-worker-assets.js",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/service-worker-assets.js.br"
     }
