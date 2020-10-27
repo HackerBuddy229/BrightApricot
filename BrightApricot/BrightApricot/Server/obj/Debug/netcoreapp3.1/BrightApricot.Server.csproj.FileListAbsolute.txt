@@ -574,4 +574,3 @@ C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\bin\Debug
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\staticwebassets\BrightApricot.Server.StaticWebAssets.Manifest.cache
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\staticwebassets\BrightApricot.Server.StaticWebAssets.xml
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.genruntimeconfig.cache
-C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\bin\Debug\netcoreapp3.1\TestData.json

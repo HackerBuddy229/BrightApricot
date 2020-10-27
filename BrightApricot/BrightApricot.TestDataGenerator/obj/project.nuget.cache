@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IWFRXqjnq9Eb6qYl5pgPvvAGT04oGLZPyk/BHXZYbonADH8kTE0cLOlY4WKtFnjVtvxUMa97pWzjRL/DwqApwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot.TestDataGenerator\\BrightApricot.TestDataGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rasmus\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0-rc.2.20475.5\\system.componentmodel.annotations.5.0.0-rc.2.20475.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace BrightApricot.Shared.Models {
-    public class Recipe {
-        [Key]
-        public string Id { get; set; }
+    public class Recipe
+    {
+        [Key] 
+        public string Id { get; set; } = Guid.NewGuid().ToString();
         
         public string Title { get; set; }
         public string Description { get; set; }
