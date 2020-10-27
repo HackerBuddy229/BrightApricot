@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Ba1J/H1RKwYE1U2n4Mqd5A5VMNeuE2OTDhOSbkCuK1LCipJq7Fnmh6TplxtoStiYvp87VYCSL3DRdUGH2BeYMg==",
+  "dgSpecHash": "yoxOm2cTk2diobvDY6Q+otVbY6ykwaklKPEPq9g1//zQTV6cB690FjE+dktLjpiVY9BhIC8ucr6tMLL6zOSsQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\BrightApricot.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rasmus\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\Rasmus\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
-    "C:\\Users\\Rasmus\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.6\\microsoft.aspnetcore.components.analyzers.3.1.6.nupkg.sha512",
+    "C:\\Users\\Rasmus\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.9\\microsoft.aspnetcore.components.analyzers.3.1.9.nupkg.sha512",
     "C:\\Users\\Rasmus\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\3.1.6\\microsoft.aspnetcore.components.forms.3.1.6.nupkg.sha512",
     "C:\\Users\\Rasmus\\.nuget\\packages\\microsoft.aspnetcore.components.web\\3.1.6\\microsoft.aspnetcore.components.web.3.1.6.nupkg.sha512",
     "C:\\Users\\Rasmus\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\3.2.1\\microsoft.aspnetcore.components.webassembly.3.2.1.nupkg.sha512",

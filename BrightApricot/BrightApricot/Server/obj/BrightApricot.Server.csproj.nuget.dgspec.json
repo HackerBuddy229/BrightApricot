@@ -46,6 +46,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Components.Analyzers": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[3.2.1, )"
@@ -129,9 +133,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Components.Analyzers": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
               "version": "[3.2.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [

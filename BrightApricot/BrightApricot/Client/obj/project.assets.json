@@ -31,7 +31,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Components.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/3.1.6": {
+      "Microsoft.AspNetCore.Components.Analyzers/3.1.9": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
@@ -481,10 +481,10 @@
         "microsoft.aspnetcore.components.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Analyzers/3.1.6": {
-      "sha512": "uX+Dl3uPqlGmKBmQRn9QKfx0cgXXyfr9JF8aaBKgi+mexwyGEYFTMXleb9AHK9aofwwMivwfUHi/OmxgcB4YYw==",
+    "Microsoft.AspNetCore.Components.Analyzers/3.1.9": {
+      "sha512": "Tuepcvi5mhTSwSum4fFhgYWozNpXzpalEXPy93YWy6WC27rZgQmiyH/eKsnKEqUdOUchm3gsFx2IIvT693N+DQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.analyzers/3.1.6",
+      "path": "microsoft.aspnetcore.components.analyzers/3.1.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -493,7 +493,7 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
         "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
-        "microsoft.aspnetcore.components.analyzers.3.1.6.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.3.1.9.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
       ]
     },
@@ -1650,6 +1650,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
       "BrightApricot.Shared >= 1.0.0",
+      "Microsoft.AspNetCore.Components.Analyzers >= 3.1.9",
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.1",
@@ -1702,6 +1703,10 @@
     "frameworks": {
       "netstandard2.1": {
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Analyzers": {
+            "target": "Package",
+            "version": "[3.1.9, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[3.2.1, )"
