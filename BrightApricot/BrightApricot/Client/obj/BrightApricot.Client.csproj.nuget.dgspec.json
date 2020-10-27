@@ -1,32 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/BrightApricot.Client.csproj": {}
+    "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\BrightApricot.Client.csproj": {}
   },
   "projects": {
-    "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/BrightApricot.Client.csproj": {
+    "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\BrightApricot.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/BrightApricot.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\BrightApricot.Client.csproj",
         "projectName": "BrightApricot.Client",
-        "projectPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/BrightApricot.Client.csproj",
-        "packagesPath": "/home/hackerbuddy/.nuget/packages/",
-        "outputPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/obj/",
+        "projectPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\BrightApricot.Client.csproj",
+        "packagesPath": "C:\\Users\\Rasmus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/hackerbuddy/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Rasmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj": {
-                "projectPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj"
+              "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj": {
+                "projectPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj"
               }
             }
           }
@@ -40,6 +46,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Components.Analyzers": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[3.2.1, )"
@@ -74,26 +84,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj": {
+    "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj",
         "projectName": "BrightApricot.Shared",
-        "projectPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj",
-        "packagesPath": "/home/hackerbuddy/.nuget/packages/",
-        "outputPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/obj/",
+        "projectPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj",
+        "packagesPath": "C:\\Users\\Rasmus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/hackerbuddy/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Rasmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -130,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,3 +6,12 @@
 /home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/obj/Debug/netstandard2.1/BrightApricot.Shared.AssemblyInfo.cs
 /home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/obj/Debug/netstandard2.1/BrightApricot.Shared.dll
 /home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/obj/Debug/netstandard2.1/BrightApricot.Shared.pdb
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Shared\obj\Debug\netstandard2.1\BrightApricot.Shared.dll
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Shared\obj\Debug\netstandard2.1\BrightApricot.Shared.pdb
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Shared\bin\Debug\netstandard2.1\BrightApricot.Shared.deps.json
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Shared\bin\Debug\netstandard2.1\BrightApricot.Shared.dll
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Shared\bin\Debug\netstandard2.1\BrightApricot.Shared.pdb
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Shared\obj\Debug\netstandard2.1\BrightApricot.Shared.csprojAssemblyReference.cache
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Shared\obj\Debug\netstandard2.1\BrightApricot.Shared.AssemblyInfoInputs.cache
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Shared\obj\Debug\netstandard2.1\BrightApricot.Shared.AssemblyInfo.cs
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Shared\obj\Debug\netstandard2.1\BrightApricot.Shared.csproj.CoreCompileInputs.cache

@@ -30,7 +30,7 @@
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/3.1.6": {
+      "Microsoft.AspNetCore.Components.Analyzers/3.1.9": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
@@ -2106,6 +2106,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "BrightApricot.Shared": "1.0.0",
+          "Microsoft.AspNetCore.Components.Analyzers": "3.1.9",
           "Microsoft.AspNetCore.Components.WebAssembly": "3.2.1",
           "System.Net.Http.Json": "3.2.0"
         },
@@ -2166,10 +2167,10 @@
         "microsoft.aspnetcore.components.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Analyzers/3.1.6": {
-      "sha512": "uX+Dl3uPqlGmKBmQRn9QKfx0cgXXyfr9JF8aaBKgi+mexwyGEYFTMXleb9AHK9aofwwMivwfUHi/OmxgcB4YYw==",
+    "Microsoft.AspNetCore.Components.Analyzers/3.1.9": {
+      "sha512": "Tuepcvi5mhTSwSum4fFhgYWozNpXzpalEXPy93YWy6WC27rZgQmiyH/eKsnKEqUdOUchm3gsFx2IIvT693N+DQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.analyzers/3.1.6",
+      "path": "microsoft.aspnetcore.components.analyzers/3.1.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2178,7 +2179,7 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
         "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
-        "microsoft.aspnetcore.components.analyzers.3.1.6.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.3.1.9.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
       ]
     },
@@ -7057,39 +7058,47 @@
     ".NETCoreApp,Version=v3.1": [
       "BrightApricot.Client >= 1.0.0",
       "BrightApricot.Shared >= 1.0.0",
+      "Microsoft.AspNetCore.Components.Analyzers >= 3.1.9",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 3.2.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4"
     ]
   },
   "packageFolders": {
-    "/home/hackerbuddy/.nuget/packages/": {}
+    "C:\\Users\\Rasmus\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Server/BrightApricot.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Server\\BrightApricot.Server.csproj",
       "projectName": "BrightApricot.Server",
-      "projectPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Server/BrightApricot.Server.csproj",
-      "packagesPath": "/home/hackerbuddy/.nuget/packages/",
-      "outputPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Server/obj/",
+      "projectPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Server\\BrightApricot.Server.csproj",
+      "packagesPath": "C:\\Users\\Rasmus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Server\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/home/hackerbuddy/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Rasmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/BrightApricot.Client.csproj": {
-              "projectPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Client/BrightApricot.Client.csproj"
+            "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\BrightApricot.Client.csproj": {
+              "projectPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\BrightApricot.Client.csproj"
             },
-            "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj": {
-              "projectPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj"
+            "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj": {
+              "projectPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj"
             }
           }
         }
@@ -7103,6 +7112,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Analyzers": {
+            "target": "Package",
+            "version": "[3.1.9, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
             "version": "[3.2.1, )"
@@ -7122,12 +7135,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.8, 3.1.8]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -7136,7 +7143,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
