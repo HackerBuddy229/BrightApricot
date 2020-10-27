@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jR6670RrVr+KCYptLYY//CCDu3qgD8fffWW3TG2VdoX2aV9yfnlstwiyDi9UnFbEsQ70gsn1cqXhm2zElSfkGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rasmus\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0-rc.2.20475.5\\system.componentmodel.annotations.5.0.0-rc.2.20475.5.nupkg.sha512"
+  ],
+  "logs": []
+}
