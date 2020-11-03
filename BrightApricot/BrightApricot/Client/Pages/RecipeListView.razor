@@ -1,0 +1,22 @@
+﻿<div class="RecipeListView">
+    @foreach (var recipe in Recipes)
+    {
+        <RecipeListItem Recipe="@recipe" OnSelected="@(async () => await SelectRecipe(recipe))"/>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public IEnumerable<Recipe> Recipes { get; set; } = new List<Recipe>();
+    
+    @*[Parameter]
+    public Recipe RecipeSelected { get;set; }*@
+
+    [Parameter]
+    public EventCallback<Recipe> OnRecipeSelected { get; set; }
+
+    private async Task SelectRecipe(Recipe recipe)
+    {
+        await OnRecipeSelected.InvokeAsync(recipe);
+    }
+}

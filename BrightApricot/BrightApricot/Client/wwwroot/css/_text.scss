@@ -1,0 +1,13 @@
+﻿$PrimaryFont: Arial; //TODO: fix this
+$SecondaryFont: Trebuchet MS;
+
+
+@mixin HeaderText-lg {
+    font-family: $PrimaryFont;
+    font-size: 2em;
+}
+
+@mixin HeaderText-md {
+    font-family: $PrimaryFont;
+    font-size: 1.5em;
+}

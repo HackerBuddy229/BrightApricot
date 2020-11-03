@@ -1,0 +1,58 @@
+﻿@import "_imports.scss";
+
+.Titlebar { //Titlebar main page
+    @include full-screen-width;
+    @include Height(29%);
+    @include Position-Sticky-Top;
+    @include background-color($Background);
+    @include Border-sm("bottom", black);
+
+    .Title {
+        @include HeaderText-lg;
+        @include Padding-From-X("left", 25px);
+        @include Padding-From-Y("top", 7px);
+    }
+}
+
+.RecipeListView {
+    @include full-screen-width;
+
+    .RecipeListItem {
+        @include Padding-From-Y("top", 20px);
+        @include width(87%);
+        /*@include Height(45vw);*/
+        @include Center-X;
+
+        .item-content {
+            @include full-width;
+        }
+
+        .recipe-card-info {
+            /*@include border-bottom(1px, black);
+            @include border-left(1px, black);
+            @include border-right(1px, black);*/
+            @include Padding-From-Y(top, 6px);
+
+            .accent-bar {
+                border-radius: 5px 5px 5px 5px;
+            }
+        }
+
+        .recipe-image {
+            @include Height(75%);
+        }
+    }
+
+    .accent-bar {
+        @include full-width;
+        @include Height(20px);
+
+        @include Padding-From-Y(top, 6px);
+       
+        @include background-color($Accent);
+    }
+}
+
+
+
+

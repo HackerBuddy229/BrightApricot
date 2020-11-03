@@ -1,0 +1,23 @@
+﻿@mixin full-screen-width {
+    width: 100vw;
+}
+
+@mixin full-width {
+    width: 100%;
+}
+
+@mixin width($width) {
+    width: $width;
+}
+
+@mixin full-screen-height {
+    width: 100vw;
+}
+
+@mixin full-height {
+    width: 100%;
+}
+
+@mixin Height($height) {
+    height: $height;
+}

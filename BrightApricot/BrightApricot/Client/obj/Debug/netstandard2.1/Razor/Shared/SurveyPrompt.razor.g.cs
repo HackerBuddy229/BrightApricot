@@ -72,6 +72,20 @@ using BrightApricot.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\_Imports.razor"
+using BrightApricot.Shared.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\_Imports.razor"
+using BrightApricot.Client.Interfaces;
+
+#line default
+#line hidden
+#nullable disable
     public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

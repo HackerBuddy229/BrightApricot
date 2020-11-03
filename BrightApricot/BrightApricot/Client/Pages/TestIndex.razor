@@ -1,0 +1,7 @@
+﻿@page "/"
+@inject NavigationManager navManager
+<h3>TestIndex</h3>
+<button @onclick="@(() => navManager.NavigateTo("test"))">Go To Main</button>
+@code {
+
+}

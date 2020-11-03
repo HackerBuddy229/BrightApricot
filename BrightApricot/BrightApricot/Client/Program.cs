@@ -3,6 +3,9 @@ using System.Net.Http;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Text;
+using BrightApricot.Client.Interfaces;
+using BrightApricot.Client.Recipes;
+using BrightApricot.Client.Services;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +21,9 @@ namespace BrightApricot.Client
             builder.RootComponents.Add<App>("app");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            builder.Services.AddScoped<IRecipeStorage, RecipeStorageTester>();
+            builder.Services.AddScoped<IRecipeHandler, RecipeHandler>();
+            //testing class
 
             await builder.Build().RunAsync();
         }

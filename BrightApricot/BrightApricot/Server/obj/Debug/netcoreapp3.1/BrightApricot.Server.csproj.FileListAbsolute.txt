@@ -391,8 +391,6 @@ C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\bin\Debug
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.csprojAssemblyReference.cache
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.AssemblyInfoInputs.cache
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.AssemblyInfo.cs
-C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.csproj.CoreCompileInputs.cache
-C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.RazorAssemblyInfo.cache
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.RazorAssemblyInfo.cs
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.TagHelpers.input.cache
@@ -574,3 +572,10 @@ C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\bin\Debug
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\staticwebassets\BrightApricot.Server.StaticWebAssets.Manifest.cache
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\staticwebassets\BrightApricot.Server.StaticWebAssets.xml
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.genruntimeconfig.cache
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.csproj.CoreCompileInputs.cache
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Server\obj\Debug\netcoreapp3.1\BrightApricot.Server.MvcApplicationPartsAssemblyInfo.cache

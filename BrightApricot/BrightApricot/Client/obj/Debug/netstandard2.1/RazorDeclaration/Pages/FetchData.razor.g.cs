@@ -77,6 +77,20 @@ using BrightApricot.Client.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 10 "C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\_Imports.razor"
+using BrightApricot.Shared.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\_Imports.razor"
+using BrightApricot.Client.Interfaces;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\Pages\FetchData.razor"
 using BrightApricot.Shared;
 

@@ -13,6 +13,7 @@ namespace BrightApricot.Server.Controllers {
 
 
     [ApiController]
+    [Route("api/TestData")]
     public class TestDataController : ControllerBase {
 
         private readonly IConfiguration _configuration;
@@ -31,7 +32,7 @@ namespace BrightApricot.Server.Controllers {
         
 
         [HttpGet]
-        [Route("api/TestData/recipes")]
+        [Route("recipes")]
         public async Task<IActionResult> FetchTestRecipes() {
             var result = await System.IO.File.ReadAllTextAsync(_filename);
             return Ok(result);

@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrightApricot.Client", "Bri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrightApricot.Shared", "BrightApricot\Shared\BrightApricot.Shared.csproj", "{17BC4476-638D-4B29-96A5-422F8560D798}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrightApricot.TestDataGenerator", "BrightApricot.TestDataGenerator\BrightApricot.TestDataGenerator.csproj", "{64087A9C-AB5C-440D-B7DC-A6088EFA93BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrightApricot.TestDataGenerator", "BrightApricot.TestDataGenerator\BrightApricot.TestDataGenerator.csproj", "{64087A9C-AB5C-440D-B7DC-A6088EFA93BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

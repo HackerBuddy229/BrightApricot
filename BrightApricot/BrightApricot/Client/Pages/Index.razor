@@ -1,5 +1,59 @@
-﻿@page "/"
+﻿@page "/test"
+@using BrightApricot.Client.Interfaces
+@using BrightApricot.Shared.Models
+@inject IRecipeHandler RecipeHandler
 
-<h1>Hello, world!</h1>
+<Titlebar Title="@_title" 
+          @ref="_titlebar"/>
 
-Welcome to your new app.
+@if (_selectedRecipe == null)
+{
+    <RecipeListView 
+        Recipes="_recipes"
+        OnRecipeSelected="SelectRecipe"/>
+}
+    
+@if (_selectedRecipe != null)
+{
+    <h1>Recipe is selected: @_selectedRecipe.Title</h1>
+    <button @onclick="() => UnselectRecipe()">Go Back</button>
+}
+
+
+<BottomMenu />
+
+@code
+{
+    private IEnumerable<Recipe> _recipes = new List<Recipe>();
+    private Recipe _selectedRecipe;
+
+    private string _title = "RecipeList";
+
+    private Titlebar _titlebar;
+
+    protected void SelectRecipe(Recipe recipe)
+    {
+        if (recipe == null)
+            return;
+        _selectedRecipe = recipe;
+        UpdateTitle();
+    }
+
+    protected void UnselectRecipe()
+    {
+        _selectedRecipe = null;
+        UpdateTitle();
+    }
+
+    private void UpdateTitle()
+    {
+        _title = _selectedRecipe == null ? "RecipeList" : _selectedRecipe.Title;
+        _titlebar.RefreshTitle();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await RecipeHandler.BeginCommit();
+        _recipes = RecipeHandler.Recipes;
+    }
+}

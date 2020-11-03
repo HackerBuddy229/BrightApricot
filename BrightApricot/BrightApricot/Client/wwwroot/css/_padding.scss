@@ -1,0 +1,24 @@
+﻿@mixin Padding-From-X($direction, $size) {
+    @if $direction == "left" {
+        padding-left: $size;
+    }
+
+    @if $direction == "right" {
+        padding-right: $size;
+    }
+}
+
+@mixin Padding-From-Y($direction, $size) {
+    @if $direction == "top" {
+        padding-top: $size;
+    }
+
+    @if $direction == "bottom" {
+        padding-bottom: $size;
+    }
+
+    @if $direction == "y" {
+        padding-bottom: $size;
+        padding-top: $size;
+    }
+}

@@ -1,0 +1,14 @@
+﻿<div class="Titlebar">
+	<h1 class="Title">@Title</h1>
+</div>
+
+
+
+@code {
+	[Parameter]
+	public string Title { get; set; }
+
+    public void RefreshTitle() => 
+        StateHasChanged();
+    
+}

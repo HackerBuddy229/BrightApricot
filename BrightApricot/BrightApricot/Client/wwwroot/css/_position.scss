@@ -1,0 +1,13 @@
+﻿@import "_padding.scss";
+@import "_centering.scss";
+
+@mixin Position-Sticky-Top {
+    position: sticky;
+    top: 0;
+}
+
+@mixin Position-Sticky-Bottom {
+    position: sticky;
+    bottom: 0;
+}
+

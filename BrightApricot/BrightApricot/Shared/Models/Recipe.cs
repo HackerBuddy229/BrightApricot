@@ -17,5 +17,8 @@ namespace BrightApricot.Shared.Models {
 
         public IEnumerable<Ingredient> Ingredients { get; set; }
         public IEnumerable<Instruction> Instructions { get; set; }
+
+
+        public string DataUrl => $"data:image/{ImageFileType};base64,{Base64Image}";
     }
 }

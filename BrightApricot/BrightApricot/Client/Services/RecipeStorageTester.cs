@@ -13,30 +13,31 @@ namespace BrightApricot.Client.Services {
 
 
         private readonly HttpClient _httpClient;
-        private static string _url = "api/TestData/recipes"; // 
+        private readonly Uri _uri = 
+            new Uri("https://localhost:5001/api/TestData/recipes"); // 
 
 
-        private IEnumerable<Recipe> _recipes { get; set; } 
+        private IEnumerable<Recipe> Recipes { get; set; } 
 
         public RecipeStorageTester(HttpClient httpClient)
         {
             _httpClient = httpClient;
-
-            PopulateStorage();
         }
-        public Task<IEnumerable<Recipe>> GetRecipes() {
-            return Task.FromResult(_recipes);
+        public async Task<IEnumerable<Recipe>> GetRecipes() {
+            if (Recipes == null)
+                await PopulateStorage();
+            return Recipes;
         }
         
         public void UpdateRecipes(IEnumerable<Recipe> recipes) {
-            _recipes = recipes;
+            Recipes = recipes;
         }
         public void ClearRecipes() {
-            _recipes = _recipes.Where(x => false).ToList();
+            Recipes = Recipes.Where(x => false).ToList();
         }
 
         private async Task<string> FetchJson() {
-            var result = await _httpClient.GetAsync(_url);
+            var result = await _httpClient.GetAsync(_uri);
             if (result.IsSuccessStatusCode)
                 return await result.Content.ReadAsStringAsync();
             return string.Empty;
@@ -45,15 +46,15 @@ namespace BrightApricot.Client.Services {
 
         private void FillStorageByJson(string json) {
             var recipe = JsonSerializer.Deserialize<IEnumerable<Recipe>>(json);
-            _recipes = recipe;
+            Recipes = recipe;
         }
 
-        private async void PopulateStorage() {
+        private async Task PopulateStorage() {
             var result = await FetchJson();
             if (!string.IsNullOrWhiteSpace(result))
                 FillStorageByJson(result);
             else
-                _recipes = new List<Recipe>();
+                Recipes = new List<Recipe>();
         }
     }
 }
