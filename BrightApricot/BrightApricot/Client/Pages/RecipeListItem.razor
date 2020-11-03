@@ -1,10 +1,10 @@
-﻿<div @onclick="OnSelected" class="RecipeListItem">
+﻿<div class="RecipeListItem">
     <img src="@Recipe.DataUrl" alt="photo" class="item-content recipe-image"/>
     <div class="recipe-card-info">
         <div>
             <h3 class="item-content">@Recipe.Title</h3>
         </div>
-        <AccentBar/>
+        <AccentBar Title="View" Onclick="OnSelected"/>
     </div>
     
 </div>

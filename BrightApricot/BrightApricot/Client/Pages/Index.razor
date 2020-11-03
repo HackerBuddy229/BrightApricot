@@ -15,8 +15,8 @@
     
 @if (_selectedRecipe != null)
 {
-    <h1>Recipe is selected: @_selectedRecipe.Title</h1>
-    <button @onclick="() => UnselectRecipe()">Go Back</button>
+    <RecipeView ViewRecipe="@_selectedRecipe"/>
+    
 }
 
 
@@ -47,7 +47,7 @@
 
     private void UpdateTitle()
     {
-        _title = _selectedRecipe == null ? "RecipeList" : _selectedRecipe.Title;
+        _title = _selectedRecipe == null ? "RecipeList" : "RecipeView";
         _titlebar.RefreshTitle();
     }
 

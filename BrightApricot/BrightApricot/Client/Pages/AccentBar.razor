@@ -1,3 +1,14 @@
 ﻿
 
-<div class="accent-bar"></div>
+<div class="accent-bar" @onclick="Onclick"><span>@Title</span></div>
+
+
+@code {
+
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public  EventCallback Onclick { get; set; }
+
+}

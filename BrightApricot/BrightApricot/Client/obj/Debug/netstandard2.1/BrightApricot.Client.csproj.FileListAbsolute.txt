@@ -763,8 +763,10 @@ C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\Razor\Pages\Titlebar.razor.g.cs
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\AccentBar.razor.g.cs
 C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\Razor\Pages\AccentBar.razor.g.cs
-C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\integrity\xzOQfBBHEfbInAugeLyuRJ3NkIIkp8EgLXvzIc7YzQ8=.hash
-C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\integrity\9O59Guvh3iFXlQqF84TunReP4tEQqvooBP-bXqy2Bhk=.hash
-C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\integrity\wJ8iil0FZXyQ4gf9FxYU0YdMNrZJN6PYmdX3kEktYvU=.hash
-C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\integrity\l8sFoNNEpLQEOIYhfZGWuWLERl60qvsqKrkvS-zNf4g=.hash
-C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\integrity\j5FbAFURy44IYTWmNrDczUtxxRsbFN-as-oiMV6wcC0=.hash
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\integrity\yZfhw4b1GAVO4N4GH2noejb_61AKe3rLenPS1usp9Yg=.hash
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\RecipeView.razor.g.cs
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\Razor\Pages\RecipeView.razor.g.cs
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\integrity\--seYjhMNMKNt7Tyv9EtXr935lS49nDDG4B9API3Hh8=.hash
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\integrity\SPa5BAXU9NbnhAjb_2CICF4MvFroVJBMDxeXXS0tbRo=.hash
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\integrity\9rsI6ugOSclg7-ZSTOXbw7kpq-uJtpAb7h3SDDVbCD8=.hash
+C:\Users\Rasmus\repos\BrightApricot\BrightApricot\BrightApricot\Client\obj\Debug\netstandard2.1\integrity\Y9_sq2JAds6I-Wp2dkR3Dhw70oR4WDgYmnYEjgjrC3s=.hash

@@ -34,7 +34,6 @@
             @include Padding-From-Y(top, 6px);
 
             .accent-bar {
-                border-radius: 5px 5px 5px 5px;
             }
         }
 
@@ -45,11 +44,18 @@
 
     .accent-bar {
         @include full-width;
-        @include Height(20px);
-
-        @include Padding-From-Y(top, 6px);
-       
+        /*@include Height(20px);*/
+        min-height: 30px;
+        height: 100%;
+        border-radius: 5px 5px 5px 5px;
+        margin-top: 6px;
         @include background-color($Accent);
+
+
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 

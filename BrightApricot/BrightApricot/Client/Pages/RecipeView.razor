@@ -1,0 +1,10 @@
+﻿<img src="@ViewRecipe.DataUrl" alt=""/>
+<h3>Name: @ViewRecipe.Title</h3>
+<h3>Description @ViewRecipe.Description</h3>
+
+@code {
+    [Parameter]
+    public Recipe ViewRecipe { get; set; }
+
+
+}

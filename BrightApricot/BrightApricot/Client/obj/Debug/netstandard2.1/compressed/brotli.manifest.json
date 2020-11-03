@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\9O59Guvh3iFXlQqF84TunReP4tEQqvooBP-bXqy2Bhk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\--seYjhMNMKNt7Tyv9EtXr935lS49nDDG4B9API3Hh8=.hash",
       "Source": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BrightApricot.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BrightApricot.Client.dll.br"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\wJ8iil0FZXyQ4gf9FxYU0YdMNrZJN6PYmdX3kEktYvU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\SPa5BAXU9NbnhAjb_2CICF4MvFroVJBMDxeXXS0tbRo=.hash",
       "Source": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BrightApricot.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BrightApricot.Client.pdb.br"
     },
@@ -296,12 +296,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\l8sFoNNEpLQEOIYhfZGWuWLERl60qvsqKrkvS-zNf4g=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\9rsI6ugOSclg7-ZSTOXbw7kpq-uJtpAb7h3SDDVbCD8=.hash",
       "Source": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\j5FbAFURy44IYTWmNrDczUtxxRsbFN-as-oiMV6wcC0=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Y9_sq2JAds6I-Wp2dkR3Dhw70oR4WDgYmnYEjgjrC3s=.hash",
       "Source": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.br"
     }
