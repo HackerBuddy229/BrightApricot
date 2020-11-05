@@ -1,5 +1,13 @@
 ﻿<div class="Titlebar">
-	<h1 class="Title">@Title</h1>
+    @if (ShowBackButton)
+    {
+        <span @onclick="BackButtonAction"
+              style="background-color: aqua;">
+            <i class="fas fa-chevron-left"></i>
+            Back
+        </span>
+    }
+    <h1 class="Title">@Title</h1>
 </div>
 
 
@@ -8,7 +16,14 @@
 	[Parameter]
 	public string Title { get; set; }
 
-    public void RefreshTitle() => 
+    [Parameter]
+    public EventCallback BackButtonAction { get; set; }
+
+    [Parameter]
+    public bool ShowBackButton { get; set; } = false;
+
+
+    public void UpdateState() => 
         StateHasChanged();
     
 }

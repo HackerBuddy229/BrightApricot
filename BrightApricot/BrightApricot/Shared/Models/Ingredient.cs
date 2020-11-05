@@ -6,5 +6,7 @@ namespace BrightApricot.Shared.Models{
         public string IngredientName { get; set; }
         public float amount { get; set; }
         public SIUnits Unit { get; set; }
+
+        public string PrintString => $"{IngredientName}, {amount} {Unit.ToString()}";
     }
 }

@@ -1,0 +1,42 @@
+﻿@using BrightApricot.Client.Enums
+<div>
+    <div>
+        <h1>@Title</h1>
+        <hr/>
+    </div>
+    <div>
+        @Description
+        <br/>
+        @if (ListType == ListType.Ordered) {
+            <ol>
+                @foreach (var item in List){
+                    <li> @item </li>
+                }
+            </ol>
+        } else {
+            <ul>
+                @foreach (var item in List)
+                {
+                    <li> @item </li>
+                }
+            </ul>
+        }
+        
+    </div>
+    
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public string Description { get; set; } = string.Empty;
+
+    [Parameter]
+    public IEnumerable<string> List { get; set; } = new List<string>();
+
+    [Parameter]
+    public ListType ListType { get; set; } = ListType.Unordered;
+
+}

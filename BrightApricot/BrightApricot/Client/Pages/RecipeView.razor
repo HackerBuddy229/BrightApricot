@@ -1,10 +1,24 @@
-﻿<img src="@ViewRecipe.DataUrl" alt=""/>
-<h3>Name: @ViewRecipe.Title</h3>
-<h3>Description @ViewRecipe.Description</h3>
+﻿@using BrightApricot.Client.Enums
+<div>
+    <RecipeDetailView Recipe="@ViewRecipe" /> @*Image and description*@
+
+    <InfoCard 
+        Title="Ingredients" 
+        List="@ViewRecipe.Ingredients.Select(i => i.PrintString).ToList()" 
+        ListType="@ListType.Unordered"/> @*Ingredient List *@
+
+    <InfoCard 
+        Title="Instructions" 
+        List="@ViewRecipe.Instructions.Select(i => i.CompleteDescription).ToList()" 
+        ListType="@ListType.Ordered"/> @*Instruction List*@
+
+</div>
+
+
 
 @code {
     [Parameter]
     public Recipe ViewRecipe { get; set; }
 
-
+    
 }

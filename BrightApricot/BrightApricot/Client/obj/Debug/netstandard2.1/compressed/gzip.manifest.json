@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\--seYjhMNMKNt7Tyv9EtXr935lS49nDDG4B9API3Hh8=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oWQhWHxQQo1l3iDSPuZuUsIvgxlv52QJqhd7neCNUxQ=.hash",
       "Source": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BrightApricot.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BrightApricot.Client.dll.gz"
     },
@@ -191,7 +191,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6UVULe68ca9TfjCX2n36CjBwmpz8dV22HU2LyIB1BDA=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\UrNe2ATDg0LQ6X8pXlDwnthd4PiYcB7-hDVMRDe6JpM=.hash",
       "Source": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BrightApricot.Shared.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BrightApricot.Shared.dll.gz"
     },
@@ -266,12 +266,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\SPa5BAXU9NbnhAjb_2CICF4MvFroVJBMDxeXXS0tbRo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\adFf8Wk2Nv2UTrNm10PLm7zTBgfVMhOIfFNUOOBahy0=.hash",
       "Source": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BrightApricot.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BrightApricot.Client.pdb.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\jsesQfj199-Vsk341ApJQT6QVQ4ucKKq1_J6D-T4Av4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\JskwUS8qbrPgMihglGzBDUjUwvOtfzhye0P6uAbjxOE=.hash",
       "Source": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BrightApricot.Shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BrightApricot.Shared.pdb.gz"
     },
@@ -296,12 +296,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\9rsI6ugOSclg7-ZSTOXbw7kpq-uJtpAb7h3SDDVbCD8=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mSYpQRS8sOEMS9pjLCr2ErKNJVTByffj-QUgqw0Qxyg=.hash",
       "Source": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Y9_sq2JAds6I-Wp2dkR3Dhw70oR4WDgYmnYEjgjrC3s=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\nLe_63n8MEJulnY4H3apOD9gufJE-_OqcuLgggBu8hs=.hash",
       "Source": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Client\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.gz"
     }

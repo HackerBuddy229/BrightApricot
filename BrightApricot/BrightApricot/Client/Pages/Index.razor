@@ -1,10 +1,15 @@
 ﻿@page "/test"
 @using BrightApricot.Client.Interfaces
 @using BrightApricot.Shared.Models
+@using System.Linq.Expressions
 @inject IRecipeHandler RecipeHandler
 
-<Titlebar Title="@_title" 
-          @ref="_titlebar"/>
+
+    <Titlebar Title="@_title"
+              BackButtonAction="(() => UnselectRecipe())"
+              ShowBackButton="_showBackButton"
+              @ref="_titlebar"/>
+
 
 @if (_selectedRecipe == null)
 {
@@ -30,25 +35,27 @@
     private string _title = "RecipeList";
 
     private Titlebar _titlebar;
+    private bool _showBackButton;
 
     protected void SelectRecipe(Recipe recipe)
     {
         if (recipe == null)
             return;
         _selectedRecipe = recipe;
-        UpdateTitle();
+        UpdateTitlebar();
     }
 
     protected void UnselectRecipe()
     {
         _selectedRecipe = null;
-        UpdateTitle();
+        UpdateTitlebar();
     }
 
-    private void UpdateTitle()
+    private void UpdateTitlebar()
     {
         _title = _selectedRecipe == null ? "RecipeList" : "RecipeView";
-        _titlebar.RefreshTitle();
+        _showBackButton = _selectedRecipe != null;
+        _titlebar.UpdateState();
     }
 
     protected override async Task OnInitializedAsync()

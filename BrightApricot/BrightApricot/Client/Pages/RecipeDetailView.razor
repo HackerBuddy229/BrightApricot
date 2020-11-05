@@ -1,0 +1,16 @@
+﻿<div class="">
+    <img src="@Recipe.DataUrl" alt="@Recipe.Title" class=""/>
+    <div>
+        <h3>Name: @Recipe.Title</h3>
+        <article>Description @Recipe.Description</article>
+    </div> 
+    <hr/>
+</div>
+
+
+
+
+@code {
+    [Parameter]
+    public Recipe Recipe { get; set; }
+}
