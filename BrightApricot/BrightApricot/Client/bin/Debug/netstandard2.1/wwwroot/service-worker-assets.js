@@ -1,15 +1,15 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-bepSB4x1YQ9M+vuTScoYSOPaiOyQ4eBntNF3iog1lE4=",
+      "hash": "sha256-vmHoJfka7PrJ\/LxLHx3VJVmnZESQuwusDOOosG8QYYo=",
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-ycHjUMqxN2Yfl4RtnSAMsbuIX8rzd0OIh1GPJhD65JI=",
+      "hash": "sha256-YPFSb2MmuRvBxN5neVrQlc+vZHgJbpkBefg75R9tdT0=",
       "url": "css\/app.css.map"
     },
     {
-      "hash": "sha256-445AFReYOCuzwRqyMm1vAoqDrfeg3jNHqd96C0J7CQs=",
+      "hash": "sha256-aKBQ6t1Y19bS+n7nG9QaY\/MhB9Ls+Y07C1+xsnUhD5o=",
       "url": "css\/app.scss"
     },
     {
@@ -113,7 +113,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-oWQhWHxQQo1l3iDSPuZuUsIvgxlv52QJqhd7neCNUxQ=",
+      "hash": "sha256-ygr9YC3\/w4PLCrRcOwISwKgY43feFmuh5BPJEzOOvHY=",
       "url": "_framework\/_bin\/BrightApricot.Client.dll"
     },
     {
@@ -265,7 +265,7 @@
       "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
-      "hash": "sha256-UrNe2ATDg0LQ6X8pXlDwnthd4PiYcB7\/hDVMRDe6JpM=",
+      "hash": "sha256-d9ObLAkm80WIfzfFjACWm3fMHiU0+kpLUI84F9SMzPo=",
       "url": "_framework\/_bin\/BrightApricot.Shared.dll"
     },
     {
@@ -325,11 +325,11 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-adFf8Wk2Nv2UTrNm10PLm7zTBgfVMhOIfFNUOOBahy0=",
+      "hash": "sha256-jSZPOMmjJDmid5Ahj\/OksnngG+A12GEMnf\/w2Zo0p1w=",
       "url": "_framework\/_bin\/BrightApricot.Client.pdb"
     },
     {
-      "hash": "sha256-JskwUS8qbrPgMihglGzBDUjUwvOtfzhye0P6uAbjxOE=",
+      "hash": "sha256-I0CNskzBgKiloIbmPWyhgVLbHyRjFdfDuVNQSJuWdN0=",
       "url": "_framework\/_bin\/BrightApricot.Shared.pdb"
     },
     {
@@ -349,9 +349,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-mSYpQRS8sOEMS9pjLCr2ErKNJVTByffj\/QUgqw0Qxyg=",
+      "hash": "sha256-YlpHVuLdF7KLs\/pFwlY+xA3VqqpoSPK0bxKUsEKcN3w=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "w5XOyMjn"
+  "version": "TZzjh5O4"
 };

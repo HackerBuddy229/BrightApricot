@@ -7,10 +7,27 @@
     @include background-color($Background);
     @include Border-sm("bottom", black);
 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
     .Title {
         @include HeaderText-lg;
         @include Padding-From-X("left", 25px);
         @include Padding-From-Y("top", 7px);
+    }
+
+    .BackButton {
+        background-color: $Secondary;
+        color: white;
+        padding: 5px 10px 5px 10px;
+        /*border: solid black 1px;*/
+        border-radius: 5px;
+        margin-left: 20px;
+        display: inline-block;
+
+        height: 60%;
+
     }
 }
 
@@ -42,23 +59,73 @@
         }
     }
 
-    .accent-bar {
-        @include full-width;
-        /*@include Height(20px);*/
-        min-height: 30px;
-        height: 100%;
-        border-radius: 5px 5px 5px 5px;
-        margin-top: 6px;
-        @include background-color($Accent);
+    
+}
 
+.accent-bar {
+    @include full-width;
+    /*@include Height(20px);*/
+    min-height: 30px;
+    height: 100%;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 6px;
+    @include background-color($Accent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-        
+.RecipeView {
+    width: 100vw;
+    padding-bottom: 30px;
+    .Cards {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
     }
 }
 
+.InfoCard {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    border: solid black 1px;
+    border-radius: 15px;
+
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.21) /*Strong maybe*/
+}
+
+.RecipeDetailView {
+    .RecipeImage {
+        width: 100%;
+    }
+
+    .RecipeDetailView-text {
+        margin: 20px 0 0 10px;
+
+    }
+
+}
+
+.ActionButton {
+    position: sticky;
+    bottom: 5px;
+    /*right: 5px;*/
+    float: right;
+    margin-right: 5px;
+
+
+    background-color: $Secondary;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

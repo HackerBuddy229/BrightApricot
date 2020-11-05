@@ -1,7 +1,8 @@
-﻿@page "/test"
+﻿@page "/"
 @using BrightApricot.Client.Interfaces
 @using BrightApricot.Shared.Models
 @using System.Linq.Expressions
+@using BrightApricot.Client.Enums
 @inject IRecipeHandler RecipeHandler
 
 
@@ -25,7 +26,12 @@
 }
 
 
-<BottomMenu />
+<ActionButton 
+    CreateAction="TestAction" 
+    EditAction="TestAction" 
+    SaveAction="TestAction" 
+    Action="_currentAction"
+    @ref="_actionButton"/>
 
 @code
 {
@@ -37,17 +43,36 @@
     private Titlebar _titlebar;
     private bool _showBackButton;
 
+    private ActionTypes _currentAction = ActionTypes.Create;
+    private ActionButton _actionButton;
+
+    ///<summary>
+    /// Test action... delete soon
+    /// </summary>
+    private void TestAction()
+    {
+        var variable = string.Empty;
+    }
+
     protected void SelectRecipe(Recipe recipe)
     {
         if (recipe == null)
             return;
         _selectedRecipe = recipe;
+        UpdateActionButton(ActionTypes.Edit);
         UpdateTitlebar();
+    }
+
+    private void UpdateActionButton(ActionTypes actionType)
+    {
+        _currentAction = actionType;
+        _actionButton.UpdateAction();
     }
 
     protected void UnselectRecipe()
     {
         _selectedRecipe = null;
+        UpdateActionButton(ActionTypes.Create);
         UpdateTitlebar();
     }
 

@@ -1,16 +1,18 @@
 ﻿@using BrightApricot.Client.Enums
-<div>
+<div class="RecipeView">
     <RecipeDetailView Recipe="@ViewRecipe" /> @*Image and description*@
+    <div class="Cards">
+        <InfoCard 
+            Title="Ingredients" 
+            List="@ViewRecipe.Ingredients.Select(i => i.PrintString).ToList()" 
+            ListType="@ListType.Unordered"/> @*Ingredient List *@
 
-    <InfoCard 
-        Title="Ingredients" 
-        List="@ViewRecipe.Ingredients.Select(i => i.PrintString).ToList()" 
-        ListType="@ListType.Unordered"/> @*Ingredient List *@
-
-    <InfoCard 
-        Title="Instructions" 
-        List="@ViewRecipe.Instructions.Select(i => i.CompleteDescription).ToList()" 
-        ListType="@ListType.Ordered"/> @*Instruction List*@
+        <InfoCard 
+            Title="Instructions" 
+            List="@ViewRecipe.Instructions.Select(i => i.CompleteDescription).ToList()" 
+            ListType="@ListType.Ordered"/> @*Instruction List*@
+    </div>
+    
 
 </div>
 

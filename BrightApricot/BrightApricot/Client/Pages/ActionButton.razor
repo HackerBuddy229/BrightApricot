@@ -1,0 +1,45 @@
+﻿@using BrightApricot.Client.Enums
+<div class="ActionButton" @onclick="TriggerAction">
+    <i class="fas @ActionSymbol"></i>
+</div>
+
+@code {
+    [Parameter]
+    public EventCallback CreateAction { get; set; }
+    [Parameter]
+    public EventCallback EditAction { get; set; }
+    [Parameter]
+    public EventCallback SaveAction { get; set; }
+
+    [Parameter]
+    public ActionTypes Action { get; set; }
+
+    public void UpdateAction() => StateHasChanged();
+
+    private string ActionSymbol => Action switch {
+        ActionTypes.Create => "fa-plus",
+        ActionTypes.Edit => "fa-pencil-alt",
+        ActionTypes.Save => "fa-check",
+        _ => "fa-exclamation-triangle"
+    };
+
+    private async void TriggerAction()
+    {
+        switch (Action)
+        {
+            case ActionTypes.Edit:
+                await EditAction.InvokeAsync(null);
+                break;
+
+            case ActionTypes.Create:
+                await CreateAction.InvokeAsync(null);
+                break;
+
+            case ActionTypes.Save:
+                await SaveAction.InvokeAsync(null);
+                break;
+            default:
+                break;
+        }
+    }
+}
