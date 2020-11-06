@@ -9,12 +9,16 @@
     [Parameter]
     public IEnumerable<Recipe> Recipes { get; set; } = new List<Recipe>();
     
-    @*[Parameter]
-    public Recipe RecipeSelected { get;set; }*@
+    [Parameter]
+    public Recipe RecipeSelected { get;set; }
 
     [Parameter]
     public EventCallback<Recipe> OnRecipeSelected { get; set; }
 
+
+    ///<summary>
+    /// local event handler for clickAction
+    /// </summary>
     private async Task SelectRecipe(Recipe recipe)
     {
         await OnRecipeSelected.InvokeAsync(recipe);

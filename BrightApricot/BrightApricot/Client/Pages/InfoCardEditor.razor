@@ -1,11 +1,11 @@
 <div>
-    <h1>@Title</h1>
+    <h1>@*@Title*@</h1>
     <hr/>
 </div>
 <div>
-    @Description
+    @*@Description*@
     <br/>
-    @if (ListType == ListType.Ordered) {
+    @*@if (ListType == ListType.Ordered) {
         <ol>
             @foreach (var item in List){
                 <li> @item </li>
@@ -18,7 +18,7 @@
                 <li> @item </li>
             }
         </ul>
-    }
+    }*@
         
 </div>
 

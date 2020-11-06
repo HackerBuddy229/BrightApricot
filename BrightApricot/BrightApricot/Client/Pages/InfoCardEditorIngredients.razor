@@ -1,26 +1,41 @@
+@using System
+@using System.Collections.Generic
+@using BrightApricot.Shared.Enums
+@using Microsoft.AspNetCore.Components.Forms;
+@using Microsoft.AspNetCore.Http.Internal
+
 <div>
     <h1>Ingredients</h1>
     
     <hr/>
 </div>
-<div>
+@*<div>
     <br/>
         <ul>
             @foreach (var item in Ingredients)
             {
-                <li> 
-                    <input type="text" @bind="item.IngredientName"/> 
-                    <input type="number" @bind="item.amount"/>
+                <li>
+                    <EditForm Model="item"> 
+                        <input type="text" @bind="item.IngredientName"/>
+                        <input type="number" @bind="item.amount"/>
+                        <InputSelect @bind-value="item.Unit" TValue="@(_sIUnit)">
+                            <option value="@SIUnits.Kilogram">Kilograms</option>
+                            <option value="@SIUnits.Liter">Liters</option>
+                        </InputSelect>
+                    </EditForm>
                     
+
                 </li>
             }
         </ul> 
-</div>
+</div>*@
 
 @code {
     [Parameter]
     public IList<Ingredient> Ingredients { get; set; }
 
+
+    public Type _sIUnit = typeof(SIUnits);
 
     public IList<Ingredient> GetIngredients() {
         throw new NotImplementedException("GetIngredients");

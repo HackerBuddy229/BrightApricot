@@ -9,17 +9,17 @@
     ".NETStandard,Version=v2.1/": {
       "BrightApricot.Shared/1.0.0": {
         "dependencies": {
-          "System.ComponentModel.Annotations": "5.0.0-rc.2.20475.5"
+          "System.ComponentModel.Annotations": "4.7.0"
         },
         "runtime": {
           "BrightApricot.Shared.dll": {}
         }
       },
-      "System.ComponentModel.Annotations/5.0.0-rc.2.20475.5": {
+      "System.ComponentModel.Annotations/4.7.0": {
         "runtime": {
           "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.47505"
+            "assemblyVersion": "4.3.1.0",
+            "fileVersion": "4.700.19.56404"
           }
         }
       }
@@ -31,12 +31,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.ComponentModel.Annotations/5.0.0-rc.2.20475.5": {
+    "System.ComponentModel.Annotations/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KrBkcEbFU5WN1n15bdh3R8h7lZPFJD7KIec8WeiPtnFvYzzvhL+PDU1/8Mf2PRHdABAd5nveXV0TWtDH5WejVg==",
-      "path": "system.componentmodel.annotations/5.0.0-rc.2.20475.5",
-      "hashPath": "system.componentmodel.annotations.5.0.0-rc.2.20475.5.nupkg.sha512"
+      "sha512": "sha512-0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+      "path": "system.componentmodel.annotations/4.7.0",
+      "hashPath": "system.componentmodel.annotations.4.7.0.nupkg.sha512"
     }
   }
 }

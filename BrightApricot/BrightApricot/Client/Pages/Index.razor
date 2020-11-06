@@ -3,44 +3,45 @@
 @using BrightApricot.Shared.Models
 @using System.Linq.Expressions
 @using BrightApricot.Client.Enums
-@inject IRecipeHandler RecipeHandler
+@inject IRecipeHandler RecipeHandler 
+@* My recipe handler dependency injection*@
 
 
-    <Titlebar Title="@_title"
+    <Titlebar Title="@_title" 
               BackButtonAction="(() => UnselectRecipe())"
               ShowBackButton="_showBackButton"
-              @ref="_titlebar"/>
+              @ref="_titlebar"/> @* the dynamic titlebar *@
 
 
-@if (_selectedRecipe == null)
+@if (_selectedRecipe == null) @* Shows a recipe if one is selected *@
 {
     <RecipeListView 
         Recipes="_recipes"
         OnRecipeSelected="SelectRecipe"/>
 }
     
-@if (_selectedRecipe != null)
+@if (_selectedRecipe != null) @* If not it shows a list *@
 {
     <RecipeView ViewRecipe="@_selectedRecipe"/>
     
 }
 
 
-<ActionButton 
+<ActionButton   
     CreateAction="TestAction" 
     EditAction="TestAction" 
     SaveAction="TestAction" 
     Action="_currentAction"
-    @ref="_actionButton"/>
+    @ref="_actionButton"/> @* The actionButton and its test event handlers *@
 
 @code
 {
-    private IEnumerable<Recipe> _recipes = new List<Recipe>();
+    private IEnumerable<Recipe> _recipes = new List<Recipe>(); //my local recipe store
     private Recipe _selectedRecipe;
 
     private string _title = "RecipeList";
 
-    private Titlebar _titlebar;
+    private Titlebar _titlebar; //refers to the titlebar that is rendered
     private bool _showBackButton;
 
     private ActionTypes _currentAction = ActionTypes.Create;
@@ -54,6 +55,9 @@
         var variable = string.Empty;
     }
 
+    ///<summary>
+    /// Assigns a selected recipe and updates the titlebar & actionbutton
+    /// </summary>
     protected void SelectRecipe(Recipe recipe)
     {
         if (recipe == null)
@@ -63,12 +67,18 @@
         UpdateTitlebar();
     }
 
+    ///<summary>
+    /// Updates the action button with the local reference
+    /// </summary>
     private void UpdateActionButton(ActionTypes actionType)
     {
         _currentAction = actionType;
         _actionButton.UpdateAction();
     }
-
+    
+    ///<summary>
+    /// Un assigns the selected recipe and updates the titlebar and Action button
+    /// </summary>
     protected void UnselectRecipe()
     {
         _selectedRecipe = null;
@@ -76,6 +86,10 @@
         UpdateTitlebar();
     }
 
+
+    ///<summary>
+    /// Updates the titlebar with the local reference
+    /// </summary>
     private void UpdateTitlebar()
     {
         _title = _selectedRecipe == null ? "RecipeList" : "RecipeView";
@@ -83,6 +97,10 @@
         _titlebar.UpdateState();
     }
 
+
+    ///<summary>
+    /// triggers the call to the REST API to fetch the test data
+    /// </summary>
     protected override async Task OnInitializedAsync()
     {
         await RecipeHandler.BeginCommit();
