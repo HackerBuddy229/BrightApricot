@@ -17,8 +17,8 @@ namespace BrightApricot.Client.Recipes {
         {
             _recipeStorage = recipeStorage;
         }
-        public IEnumerable<Recipe> Recipes { get; set; }
-        private IEnumerable<Recipe> recipes { get; set; }
+        public IList<Recipe> Recipes { get; set; }
+        private IList<Recipe> recipes { get; set; }
 
         public async Task BeginCommit()
         {
@@ -36,7 +36,7 @@ namespace BrightApricot.Client.Recipes {
         }
 
         private async Task Sync() {
-            recipes = await _recipeStorage.GetRecipes();
+            recipes = (await _recipeStorage.GetRecipes()).ToList();
             Recipes = recipes != null || recipes.Any() ? recipes : new List<Recipe>();
         }
     }

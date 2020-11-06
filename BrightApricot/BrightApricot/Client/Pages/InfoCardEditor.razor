@@ -1,0 +1,27 @@
+<div>
+    <h1>@Title</h1>
+    <hr/>
+</div>
+<div>
+    @Description
+    <br/>
+    @if (ListType == ListType.Ordered) {
+        <ol>
+            @foreach (var item in List){
+                <li> @item </li>
+            }
+        </ol>
+    } else {
+        <ul>
+            @foreach (var item in List)
+            {
+                <li> @item </li>
+            }
+        </ul>
+    }
+        
+</div>
+
+@code {
+
+}

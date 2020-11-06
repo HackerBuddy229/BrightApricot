@@ -1,16 +1,29 @@
 ﻿@using BrightApricot.Client.Enums
+@inject IRecipeHandler _recipeHandler
 <div class="RecipeView">
-    <RecipeDetailView Recipe="@ViewRecipe" /> @*Image and description*@
+    <RecipeDetailView Recipe="@(_recipe)" EditPassthrough="_editingEnabled"> 
+
+    </RecipeDetailView>@*Image and description*@
     <div class="Cards">
         <InfoCard 
             Title="Ingredients" 
             List="@ViewRecipe.Ingredients.Select(i => i.PrintString).ToList()" 
-            ListType="@ListType.Unordered"/> @*Ingredient List *@
+            ListType="@ListType.Unordered"
+            EditPassthrough="_editingEnabled"> 
+            
+
+        
+        </InfoCard> @*Ingredient List *@
 
         <InfoCard 
             Title="Instructions" 
             List="@ViewRecipe.Instructions.Select(i => i.CompleteDescription).ToList()" 
-            ListType="@ListType.Ordered"/> @*Instruction List*@
+            ListType="@ListType.Ordered"
+            EditPassthrough="_editingEnabled"> 
+
+
+
+        </InfoCard>  @*Instruction List*@
     </div>
     
 
@@ -22,5 +35,20 @@
     [Parameter]
     public Recipe ViewRecipe { get; set; }
 
-    
+    private Recipe _recipe;
+    private bool _editingEnabled = false; 
+
+    protected override void OnInitialized() {
+        _recipe = _recipeHandler.Recipes.FirstOrDefault(r => r.Id == ViewRecipe.Id);
+        base.OnInitialized();
+    }
+
+    private void UpdateRecipe(Recipe recipe) {
+        var index = _recipeHandler.Recipes
+                                .Where(r => r.Id == recipe.Id)
+                                .Select((recipe, index) => index)
+                                .FirstOrDefault();
+
+        _recipeHandler.Recipes.Insert(index, recipe);
+    }
 }

@@ -1,28 +1,33 @@
 ﻿@using BrightApricot.Client.Enums
 <div class="InfoCard">
-    <div>
-        <h1>@Title</h1>
-        <hr/>
-    </div>
-    <div>
-        @Description
-        <br/>
-        @if (ListType == ListType.Ordered) {
-            <ol>
-                @foreach (var item in List){
-                    <li> @item </li>
-                }
-            </ol>
-        } else {
-            <ul>
-                @foreach (var item in List)
-                {
-                    <li> @item </li>
-                }
-            </ul>
+    @if (!EditPassthrough){
+        <div>
+            <h1>@Title</h1>
+            <hr/>
+        </div>
+        <div>
+            @Description
+            <br/>
+            @if (ListType == ListType.Ordered) {
+                <ol>
+                    @foreach (var item in List){
+                        <li> @item </li>
+                    }
+                </ol>
+            } else {
+                <ul>
+                    @foreach (var item in List)
+                    {
+                        <li> @item </li>
+                    }
+                </ul>
         }
         
     </div>
+    } else {
+        @EditView
+    }
+    
     
 </div>
 
@@ -38,5 +43,11 @@
 
     [Parameter]
     public ListType ListType { get; set; } = ListType.Unordered;
+
+
+    [Parameter]
+    public bool EditPassthrough { get; set; }
+    [Parameter]
+    public RenderFragment EditView { get; set; }
 
 }

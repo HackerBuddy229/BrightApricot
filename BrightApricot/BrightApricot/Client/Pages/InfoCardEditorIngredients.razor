@@ -1,0 +1,28 @@
+<div>
+    <h1>Ingredients</h1>
+    
+    <hr/>
+</div>
+<div>
+    <br/>
+        <ul>
+            @foreach (var item in Ingredients)
+            {
+                <li> 
+                    <input type="text" @bind="item.IngredientName"/> 
+                    <input type="number" @bind="item.amount"/>
+                    
+                </li>
+            }
+        </ul> 
+</div>
+
+@code {
+    [Parameter]
+    public IList<Ingredient> Ingredients { get; set; }
+
+
+    public IList<Ingredient> GetIngredients() {
+        throw new NotImplementedException("GetIngredients");
+    }
+}
