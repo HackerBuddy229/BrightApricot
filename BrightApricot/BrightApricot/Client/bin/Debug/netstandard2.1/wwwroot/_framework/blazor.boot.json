@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "BrightApricot.Client.dll": "sha256-8W4vCml0ofzqH\/ZwUrJYIZI0VkmSJtrSj\/XBhreEpE0=",
+      "BrightApricot.Client.dll": "sha256-wCfqrm8v4VpaCDSF16uDAVUEZMDHuz7DnkEOsOUaQAk=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-Bs1Wrmh4ex9dTEIT0yCRF52N\/wOmsBDt457BHr0\/ssM=",
       "netstandard.dll": "sha256-\/zcPVM75OAY+joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=",
       "System.Xml.Linq.dll": "sha256-IPbQMdJxZXdk8HTlaPyXdQ6Zb82iZLphnM74yO4EURQ=",
@@ -43,7 +43,7 @@
       "System.ComponentModel.DataAnnotations.dll": "sha256-LIfCYwg+PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=",
       "Microsoft.AspNetCore.Components.dll": "sha256-PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=",
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=",
-      "BrightApricot.Shared.dll": "sha256-5AxspPh7hK9WQhyxOi+0oWhvtcRYlpQfN+g46918Owk=",
+      "BrightApricot.Shared.dll": "sha256-WeWo0xj22rsJHnF7dzVUvHp5iZOEyd5rovb9GHmmd8k=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-FJ+rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-oK1Bjv95fH+hSbogUkJE+xDAI203kJG6lL6Sm\/NuPWg=",
       "Microsoft.Extensions.Primitives.dll": "sha256-y\/FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK+gtKc=",
@@ -60,8 +60,8 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "BrightApricot.Client.pdb": "sha256-EffZ+S+FIzhVmoYhHUh+6Wfk0mvJ5xNVTo9Ct\/PQZnA=",
-      "BrightApricot.Shared.pdb": "sha256-s0A8hFoz6Nk3MxMjbJmQ5WxDzMu1kqgQ9oliohqAdVQ="
+      "BrightApricot.Client.pdb": "sha256-KagQ3JzasDkBRI\/UrEpbU9xUjzDdCVCGqFYQ9vRbEdI=",
+      "BrightApricot.Shared.pdb": "sha256-jR2ydOWiMpMdHwMah048NLJuk5Mzk17TTRs3\/Xn23lQ="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MImNA5pB1k/K3CwOdLbfNi4xnVsLHVep4YoYL80t7RPH2ck3VC9gLwBYG3T1c2EmGrFY2MAzcwGRTGJprq2rUw==",
+  "dgSpecHash": "UIVDL8hWlTPTUPW/cEyseoD0LQr4fSH6XhbXEcKsnQkOo/aN6t9KFsnx9cu1sxV+vURTTi/rsN4I5hET6iwDvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj",
+  "projectFilePath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Rasmus\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    "/home/hackerbuddy/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
