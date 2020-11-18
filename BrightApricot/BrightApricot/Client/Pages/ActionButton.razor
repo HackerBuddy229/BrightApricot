@@ -1,6 +1,6 @@
 ﻿@using BrightApricot.Client.Enums
-<div class="ActionButton" @onclick="TriggerAction">
-    <i class="fas @ActionSymbol"></i>
+<div class="ActionButton" @onclick="TriggerAction"> @* the outer button *@
+    <i class="fas @ActionSymbol"></i> @* the symbol gotten from fontawesome *@
 </div>
 
 @code {
@@ -14,8 +14,15 @@
     [Parameter]
     public ActionTypes Action { get; set; }
 
+    ///<summary>
+    /// allows external refresh of the icon
+    /// </summary>
     public void UpdateAction() => StateHasChanged();
 
+    ///<summary>
+    ///interperts what icon to show
+    /// </summary>
+    /// <returns>The "class" corresponding to the correct fa icon</returns>
     private string ActionSymbol => Action switch {
         ActionTypes.Create => "fa-plus",
         ActionTypes.Edit => "fa-pencil-alt",
@@ -23,6 +30,9 @@
         _ => "fa-exclamation-triangle"
     };
 
+    ///<summary>
+    /// the event handler for the click action
+    /// </summary>
     private async void TriggerAction()
     {
         switch (Action)

@@ -7,17 +7,19 @@
     @include background-color($Background);
     @include Border-sm("bottom", black);
 
+
+    //center and organise the button and title
     display: flex;
     flex-direction: row;
     align-items: center;
 
-    .Title {
+    .Title { //text
         @include HeaderText-lg;
         @include Padding-From-X("left", 25px);
         @include Padding-From-Y("top", 7px);
     }
 
-    .BackButton {
+    .BackButton { //topbar buttom
         background-color: $Secondary;
         color: white;
         padding: 5px 10px 5px 10px;
@@ -31,30 +33,28 @@
     }
 }
 
-.RecipeListView {
+.RecipeListView { //the index list
     @include full-screen-width;
 
-    .RecipeListItem {
+    .RecipeListItem { //an listable item
         @include Padding-From-Y("top", 20px);
         @include width(87%);
         /*@include Height(45vw);*/
         @include Center-X;
 
-        .item-content {
+        .item-content { //the content
             @include full-width;
         }
 
-        .recipe-card-info {
+        .recipe-card-info { // the text
             /*@include border-bottom(1px, black);
             @include border-left(1px, black);
             @include border-right(1px, black);*/
             @include Padding-From-Y(top, 6px);
 
-            .accent-bar {
-            }
         }
 
-        .recipe-image {
+        .recipe-image { // the image in the list view
             @include Height(75%);
         }
     }
@@ -62,7 +62,7 @@
     
 }
 
-.accent-bar {
+.accent-bar { // the pink accent at the bottom
     @include full-width;
     /*@include Height(20px);*/
     min-height: 30px;
@@ -70,21 +70,23 @@
     border-radius: 5px 5px 5px 5px;
     margin-top: 6px;
     @include background-color($Accent);
+
+    //center the text in the accent bar
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.RecipeView {
+.RecipeView { // the sencond screen
     width: 100vw;
     padding-bottom: 30px;
-    .Cards {
+    .Cards { //the card layout
         display: flex;
         flex-direction: column;
     }
 }
 
-.InfoCard {
+.InfoCard { // the cards
     width: 90%;
     margin: auto;
     margin-top: 30px;
@@ -92,22 +94,24 @@
     border: solid black 1px;
     border-radius: 15px;
 
-    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.21) /*Strong maybe*/
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.21)
 }
 
-.RecipeDetailView {
-    .RecipeImage {
+.RecipeDetailView { //the image and text at the top
+    .RecipeImage { // the image at the top
         width: 100%;
     }
 
-    .RecipeDetailView-text {
+    .RecipeDetailView-text { //the text below the image
         margin: 20px 0 0 10px;
 
     }
 
 }
 
-.ActionButton {
+.ActionButton { // the torkoise button in the lower right corner
+    
+    //attach the button to the bottom right                
     position: sticky;
     bottom: 5px;
     /*right: 5px;*/
@@ -122,6 +126,8 @@
     height: 50px;
     border-radius: 100%;
 
+
+    //center the icon
     display: flex;
     justify-content: center;
     align-items: center;

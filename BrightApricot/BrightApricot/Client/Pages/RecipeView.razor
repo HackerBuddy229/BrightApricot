@@ -1,7 +1,7 @@
 ﻿@using BrightApricot.Client.Enums
 @inject IRecipeHandler _recipeHandler
 <div class="RecipeView">
-    <RecipeDetailView Recipe="@(_recipe)" EditPassthrough="_editingEnabled"> 
+    <RecipeDetailView Recipe="@(_recipe)" EditPassthrough="false"> 
 
     </RecipeDetailView>@*Image and description*@
     <div class="Cards">
@@ -9,7 +9,7 @@
             Title="Ingredients" 
             List="@ViewRecipe.Ingredients.Select(i => i.PrintString).ToList()" 
             ListType="@ListType.Unordered"
-            EditPassthrough="_editingEnabled"> 
+            EditPassthrough="false"> 
             
 
         
@@ -19,7 +19,7 @@
             Title="Instructions" 
             List="@ViewRecipe.Instructions.Select(i => i.CompleteDescription).ToList()" 
             ListType="@ListType.Ordered"
-            EditPassthrough="_editingEnabled"> 
+            EditPassthrough="false"> 
 
 
 
@@ -36,13 +36,17 @@
     public Recipe ViewRecipe { get; set; }
 
     private Recipe _recipe;
-    private bool _editingEnabled = false; 
+    //private bool _editingEnabled = false; // for editing functionality
 
     protected override void OnInitialized() {
         _recipe = _recipeHandler.Recipes.FirstOrDefault(r => r.Id == ViewRecipe.Id);
         base.OnInitialized();
     }
 
+    ///<remarks>Deprecated</remarks>
+    /// <summary>
+    /// Intended to update the recipe through the IRecipeHandler
+    /// </summary>
     private void UpdateRecipe(Recipe recipe) {
         var index = _recipeHandler.Recipes
                                 .Where(r => r.Id == recipe.Id)
