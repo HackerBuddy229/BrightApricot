@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "L+xSEkLsUFkR1f6ySlQCiuUA6F+NXH32jVmdKIgw0/fkjg9uylkfRe1s0zxO7w1+EtaYo7nPqclI958DgwfDeA==",
+  "dgSpecHash": "XFeu7L+akavzg4BhyyKrtjAAEv2Uo7YvNvCY7duf8gt+9HK2VFx7Ln+tnjFiic65gn/1ndlU2Oz48wWp4TWfBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot.TestDataGenerator\\BrightApricot.TestDataGenerator.csproj",
+  "projectFilePath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot.TestDataGenerator/BrightApricot.TestDataGenerator.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Rasmus\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    "/home/hackerbuddy/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/home/hackerbuddy/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
