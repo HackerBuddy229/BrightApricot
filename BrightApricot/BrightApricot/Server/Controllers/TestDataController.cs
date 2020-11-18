@@ -33,8 +33,9 @@ namespace BrightApricot.Server.Controllers {
 
         [HttpGet]
         [Route("recipes")]
-        public async Task<IActionResult> FetchTestRecipes() {
-            var result = await System.IO.File.ReadAllTextAsync(_filename);
+        public IActionResult FetchTestRecipes() {
+            //var result = await System.IO.File.ReadAllTextAsync(_filename);
+            var result = StaticTestData.Data;
             return Ok(result);
         } 
     }
