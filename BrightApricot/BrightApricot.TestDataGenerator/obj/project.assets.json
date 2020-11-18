@@ -1,8 +1,8 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "System.ComponentModel.Annotations/4.7.0": {
+    "net5.0": {
+      "System.ComponentModel.Annotations/5.0.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
@@ -13,9 +13,9 @@
       },
       "BrightApricot.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "System.ComponentModel.Annotations": "4.7.0"
+          "System.ComponentModel.Annotations": "5.0.0"
         },
         "compile": {
           "bin/placeholder/BrightApricot.Shared.dll": {}
@@ -27,13 +27,14 @@
     }
   },
   "libraries": {
-    "System.ComponentModel.Annotations/4.7.0": {
-      "sha512": "0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+    "System.ComponentModel.Annotations/5.0.0": {
+      "sha512": "dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
       "type": "package",
-      "path": "system.componentmodel.annotations/4.7.0",
+      "path": "system.componentmodel.annotations/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -110,7 +111,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.annotations.4.7.0.nupkg.sha512",
+        "system.componentmodel.annotations.5.0.0.nupkg.sha512",
         "system.componentmodel.annotations.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -123,43 +124,37 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "BrightApricot.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rasmus\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/home/hackerbuddy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot.TestDataGenerator\\BrightApricot.TestDataGenerator.csproj",
+      "projectUniqueName": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot.TestDataGenerator/BrightApricot.TestDataGenerator.csproj",
       "projectName": "BrightApricot.TestDataGenerator",
-      "projectPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot.TestDataGenerator\\BrightApricot.TestDataGenerator.csproj",
-      "packagesPath": "C:\\Users\\Rasmus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot.TestDataGenerator\\obj\\",
+      "projectPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot.TestDataGenerator/BrightApricot.TestDataGenerator.csproj",
+      "packagesPath": "/home/hackerbuddy/.nuget/packages/",
+      "outputPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot.TestDataGenerator/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Rasmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/hackerbuddy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj": {
-              "projectPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj"
+            "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj": {
+              "projectPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj"
             }
           }
         }
@@ -171,7 +166,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",
@@ -182,12 +178,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

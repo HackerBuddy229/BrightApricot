@@ -1,38 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot.TestDataGenerator\\BrightApricot.TestDataGenerator.csproj": {}
+    "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot.TestDataGenerator/BrightApricot.TestDataGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot.TestDataGenerator\\BrightApricot.TestDataGenerator.csproj": {
+    "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot.TestDataGenerator/BrightApricot.TestDataGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot.TestDataGenerator\\BrightApricot.TestDataGenerator.csproj",
+        "projectUniqueName": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot.TestDataGenerator/BrightApricot.TestDataGenerator.csproj",
         "projectName": "BrightApricot.TestDataGenerator",
-        "projectPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot.TestDataGenerator\\BrightApricot.TestDataGenerator.csproj",
-        "packagesPath": "C:\\Users\\Rasmus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot.TestDataGenerator\\obj\\",
+        "projectPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot.TestDataGenerator/BrightApricot.TestDataGenerator.csproj",
+        "packagesPath": "/home/hackerbuddy/.nuget/packages/",
+        "outputPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot.TestDataGenerator/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Rasmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/hackerbuddy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj": {
-                "projectPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj"
+              "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj": {
+                "projectPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj"
               }
             }
           }
@@ -44,7 +39,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -55,41 +51,42 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj": {
+    "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj",
+        "projectUniqueName": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj",
         "projectName": "BrightApricot.Shared",
-        "projectPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\BrightApricot.Shared.csproj",
-        "packagesPath": "C:\\Users\\Rasmus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rasmus\\repos\\BrightApricot\\BrightApricot\\BrightApricot\\Shared\\obj\\",
+        "projectPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/BrightApricot.Shared.csproj",
+        "packagesPath": "/home/hackerbuddy/.nuget/packages/",
+        "outputPath": "/home/hackerbuddy/repos/BrightApricot/BrightApricot/BrightApricot/Shared/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Rasmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/hackerbuddy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -100,11 +97,12 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "System.ComponentModel.Annotations": {
               "target": "Package",
-              "version": "[4.7.0, )"
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -117,12 +115,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
